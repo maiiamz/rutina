@@ -23,7 +23,7 @@ section {
     opacity: 0.4;
 }
 
-section > *:not(.bg-img) {
+section>*:not(.bg-img) {
     position: relative;
     z-index: 1;
 }
@@ -72,7 +72,7 @@ p {
     height: auto;
 }
 
-h2{
+h2 {
     font-size: 1.7em;
     letter-spacing: 2px;
     text-align: right;
@@ -80,10 +80,12 @@ h2{
     margin-bottom: 100px;
     margin-right: 50px;
     color: var(--text-color);
-   font-family: "typeka", sans-serif;
+    font-family: "typeka", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
+
 
 .volume-control {
     position: fixed;
@@ -138,4 +140,14 @@ h2{
     background: white;
     cursor: pointer;
     border: none;
+}
+
+.carta {
+  position: absolute;
+  left: 200px;   /* adjust to where you want it to start */
+  top: 100px;
+}
+
+.azul-oscura {
+  width: 200px;  /* whatever size you want */
 }
