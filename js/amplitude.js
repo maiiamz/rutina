@@ -10,5 +10,6 @@ function draw(){
     background(0);
     let vol = mic.getLevel();
     let diameter = vol * width();
-    
+    stroke(255);
+    ellipse(width/2, height/2, diameter, diameter);
 }
