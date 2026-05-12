@@ -43,7 +43,7 @@ h1 {
     font-size: 6em;
     letter-spacing: 50px;
     text-align: center;
-    margin-top: 230px;
+    margin-top: 200px;
     margin-bottom: 0px;
     color: var(--text-color);
     font-family: "tk-takuminarazumoji-l", sans-serif;
@@ -62,4 +62,12 @@ p {
     font-family: "typeka", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.flecha {
+    display: block;
+    margin: 20px auto;
+    margin-top: 160px;
+    width: 100px;
+    height: auto;
 }
